@@ -9,12 +9,14 @@
         <module name="02Spring-Boot-Config" />
         <module name="springbootAll" />
         <module name="Start-Spring-Boot" />
+        <module name="03swagger" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="02Spring-Boot-Config" options="-parameters" />
+      <module name="03swagger" options="-parameters" />
       <module name="Start-Spring-Boot" options="-parameters" />
     </option>
   </component>

@@ -8,11 +8,10 @@
         <version>2.3.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
-    <groupId>com.springboot</groupId>
-    <artifactId>02-config</artifactId>
+    <groupId>com.spring</groupId>
+    <artifactId>swagger</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>02-config</name>
+    <name>swagger</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,14 +21,44 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
 
+
+<!--        皮肤定义 开始-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+
+        <!-- 引入swagger-bootstrap-ui包 /doc.html-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+
+
+        <!-- 引入swagger-ui-layer包 /document.html-->
+        <dependency>
+            <groupId>com.zyplayer</groupId>
+            <artifactId>swagger-mg-ui</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+        <!--        皮肤定义 结束-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,12 +70,6 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.3.0.RELEASE</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
