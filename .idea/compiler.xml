@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="06webjars" />
         <module name="05druid" />
         <module name="springbootAll" />
         <module name="04spring-boot-jdbc" />
@@ -27,6 +28,7 @@
       <module name="04spring-boot-jdbc" options="-parameters" />
       <module name="05druid" options="-parameters" />
       <module name="05mybatis" options="-parameters" />
+      <module name="06webjars" options="-parameters" />
       <module name="Start-Spring-Boot" options="-parameters" />
       <module name="druid" options="-parameters" />
     </option>
