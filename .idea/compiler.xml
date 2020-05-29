@@ -10,8 +10,8 @@
         <module name="05druid" />
         <module name="07english" />
         <module name="springbootAll" />
-        <module name="08Editor-Md" />
         <module name="07Async" />
+        <module name="08Dubbo-zk" />
         <module name="04spring-boot-jdbc" />
         <module name="05mybatis" />
         <module name="03swagger" />
@@ -22,6 +22,7 @@
     <bytecodeTargetLevel>
       <module name="05druid" target="1.8" />
       <module name="07english" target="1.8" />
+      <module name="08Editor-Md" target="1.8" />
       <module name="druid" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -35,6 +36,7 @@
       <module name="06webjars" options="-parameters" />
       <module name="07Async" options="-parameters" />
       <module name="07english" options="-parameters" />
+      <module name="08Dubbo-zk" options="-parameters" />
       <module name="08Editor-Md" options="-parameters" />
       <module name="Start-Spring-Boot" options="-parameters" />
       <module name="druid" options="-parameters" />
