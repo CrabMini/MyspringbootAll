@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="06webjars" />
         <module name="05druid" />
+        <module name="07english" />
         <module name="springbootAll" />
+        <module name="07Async" />
         <module name="04spring-boot-jdbc" />
         <module name="05mybatis" />
         <module name="03swagger" />
@@ -18,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="05druid" target="1.8" />
+      <module name="07english" target="1.8" />
       <module name="druid" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -29,6 +32,8 @@
       <module name="05druid" options="-parameters" />
       <module name="05mybatis" options="-parameters" />
       <module name="06webjars" options="-parameters" />
+      <module name="07Async" options="-parameters" />
+      <module name="07english" options="-parameters" />
       <module name="Start-Spring-Boot" options="-parameters" />
       <module name="druid" options="-parameters" />
     </option>
