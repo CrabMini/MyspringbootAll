@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/02Spring-Boot-Config/pom.xml" />
         <option value="$PROJECT_DIR$/03swagger/pom.xml" />
         <option value="$PROJECT_DIR$/04spring-boot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/05mybatis/pom.xml" />
       </list>
     </option>
   </component>

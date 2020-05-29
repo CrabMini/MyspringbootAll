@@ -9,6 +9,7 @@
         <module name="05druid" />
         <module name="springbootAll" />
         <module name="04spring-boot-jdbc" />
+        <module name="05mybatis" />
         <module name="03swagger" />
         <module name="Start-Spring-Boot" />
         <module name="02Spring-Boot-Config" />
@@ -25,6 +26,7 @@
       <module name="03swagger" options="-parameters" />
       <module name="04spring-boot-jdbc" options="-parameters" />
       <module name="05druid" options="-parameters" />
+      <module name="05mybatis" options="-parameters" />
       <module name="Start-Spring-Boot" options="-parameters" />
       <module name="druid" options="-parameters" />
     </option>
