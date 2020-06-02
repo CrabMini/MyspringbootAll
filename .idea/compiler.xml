@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="06webjars" />
         <module name="05druid" />
         <module name="07english" />
-        <module name="04spring-boot-jdbc" />
-        <module name="Start-Spring-Boot" />
+        <module name="springbootAll" />
         <module name="07Async" />
         <module name="08Dubbo-zk" />
-        <module name="springbootAll" />
+        <module name="04spring-boot-jdbc" />
         <module name="05mybatis" />
         <module name="09SSO" />
         <module name="03swagger" />
-        <module name="06webjars" />
+        <module name="Start-Spring-Boot" />
         <module name="02Spring-Boot-Config" />
       </profile>
     </annotationProcessing>

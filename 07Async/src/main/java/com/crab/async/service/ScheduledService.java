@@ -9,8 +9,8 @@ public class ScheduledService {
     //秒   分   时     日   月   周几
     //0 * * * * MON-FRI
     //注意cron表达式的用法；
-    @Scheduled(cron = "*/2 * * * * 0-7")
+    @Scheduled(cron = "* */1 * * * 0-7")
     public void hello(){
-        System.out.println("hello.....");
+        System.out.println("定时任务打印hello.....");
     }
 }
