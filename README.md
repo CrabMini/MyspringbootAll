@@ -11,6 +11,8 @@
 
 http://localhost:8080/swagger-ui.html
 
+## 05 mybatis mybatis-generator 
+根据数据库，表 生成mapper 实体类
 
 
 ## 04
