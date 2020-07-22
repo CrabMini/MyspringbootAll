@@ -1,6 +1,7 @@
 package com.crab.webjars.controller;
 
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +13,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 @RestController
 @RequestMapping("/jdbc")
 public class JdbcController {
@@ -29,6 +31,7 @@ public class JdbcController {
     //Map 中的 key 对应数据库的字段名，value 对应数据库的字段值
     @GetMapping("/list")
     public List<Map<String, Object>> userList(){
+        log.error("日志输出： 访问/jdbc/list");
         String sql = "select * from employee";
         List<Map<String, Object>> maps = jdbcTemplate.queryForList(sql);
         return maps;

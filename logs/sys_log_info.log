@@ -1,0 +1,215 @@
+2020-07-22 10:36:42.836 [main] INFO  com.crab.webjars.WebjarsApplication - Starting WebjarsApplication on DESKTOP-43C2PE1 with PID 14764 (F:\Code\springbootAll\06webjars\target\classes started by 11438 in F:\Code\springbootAll)
+2020-07-22 10:36:42.840 [main] INFO  com.crab.webjars.WebjarsApplication - No active profile set, falling back to default profiles: default
+2020-07-22 10:36:44.683 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-07-22 10:36:44.691 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-07-22 10:36:44.692 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-22 10:36:44.694 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-22 10:36:44.812 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-22 10:36:44.813 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1917 ms
+2020-07-22 10:36:45.436 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-22 10:36:45.606 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 10:36:45.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-07-22 10:36:45.862 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-07-22 10:36:45.864 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-22 10:36:45.889 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 4 custom documentation plugin(s)
+2020-07-22 10:36:45.924 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-22 10:36:46.105 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-22 10:36:46.107 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingGET_1
+2020-07-22 10:36:46.108 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingHEAD_1
+2020-07-22 10:36:46.110 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPOST_1
+2020-07-22 10:36:46.112 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPUT_1
+2020-07-22 10:36:46.113 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPATCH_1
+2020-07-22 10:36:46.114 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingDELETE_1
+2020-07-22 10:36:46.116 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingOPTIONS_1
+2020-07-22 10:36:46.117 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingTRACE_1
+2020-07-22 10:36:46.125 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingGET_1
+2020-07-22 10:36:46.125 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingHEAD_1
+2020-07-22 10:36:46.127 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPOST_1
+2020-07-22 10:36:46.128 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPUT_1
+2020-07-22 10:36:46.129 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPATCH_1
+2020-07-22 10:36:46.129 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingDELETE_1
+2020-07-22 10:36:46.130 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingOPTIONS_1
+2020-07-22 10:36:46.132 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingTRACE_1
+2020-07-22 10:36:46.134 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDepartmentUsingGET_1
+2020-07-22 10:36:46.136 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDepartmentsUsingGET_1
+2020-07-22 10:36:46.138 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingGET_1
+2020-07-22 10:36:46.141 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getUsingGET_1
+2020-07-22 10:36:46.143 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getEmployeesUsingGET_1
+2020-07-22 10:36:46.145 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingGET_1
+2020-07-22 10:36:46.146 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUserUsingGET_1
+2020-07-22 10:36:46.147 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delUserUsingGET_1
+2020-07-22 10:36:46.149 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUserUsingGET_1
+2020-07-22 10:36:46.150 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: userListUsingGET_1
+2020-07-22 10:36:46.152 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingGET_1
+2020-07-22 10:36:46.153 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingHEAD_1
+2020-07-22 10:36:46.153 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPOST_1
+2020-07-22 10:36:46.154 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPUT_1
+2020-07-22 10:36:46.154 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPATCH_1
+2020-07-22 10:36:46.155 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingDELETE_1
+2020-07-22 10:36:46.156 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingOPTIONS_1
+2020-07-22 10:36:46.156 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingTRACE_1
+2020-07-22 10:36:46.157 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2020-07-22 10:36:46.158 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingHEAD_1
+2020-07-22 10:36:46.159 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPOST_1
+2020-07-22 10:36:46.161 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPUT_1
+2020-07-22 10:36:46.162 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPATCH_1
+2020-07-22 10:36:46.163 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingDELETE_1
+2020-07-22 10:36:46.163 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingOPTIONS_1
+2020-07-22 10:36:46.164 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingTRACE_1
+2020-07-22 10:36:46.167 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-22 10:36:46.168 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingGET_2
+2020-07-22 10:36:46.169 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingHEAD_2
+2020-07-22 10:36:46.170 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPOST_2
+2020-07-22 10:36:46.171 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPUT_2
+2020-07-22 10:36:46.172 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPATCH_2
+2020-07-22 10:36:46.173 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingDELETE_2
+2020-07-22 10:36:46.174 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingOPTIONS_2
+2020-07-22 10:36:46.175 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingTRACE_2
+2020-07-22 10:36:46.182 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingGET_2
+2020-07-22 10:36:46.183 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingHEAD_2
+2020-07-22 10:36:46.184 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPOST_2
+2020-07-22 10:36:46.184 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPUT_2
+2020-07-22 10:36:46.185 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPATCH_2
+2020-07-22 10:36:46.185 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingDELETE_2
+2020-07-22 10:36:46.186 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingOPTIONS_2
+2020-07-22 10:36:46.187 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingTRACE_2
+2020-07-22 10:36:46.189 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDepartmentUsingGET_2
+2020-07-22 10:36:46.190 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDepartmentsUsingGET_2
+2020-07-22 10:36:46.191 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingGET_2
+2020-07-22 10:36:46.195 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getUsingGET_2
+2020-07-22 10:36:46.196 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getEmployeesUsingGET_2
+2020-07-22 10:36:46.197 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingGET_2
+2020-07-22 10:36:46.200 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUserUsingGET_2
+2020-07-22 10:36:46.201 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delUserUsingGET_2
+2020-07-22 10:36:46.202 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUserUsingGET_2
+2020-07-22 10:36:46.202 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: userListUsingGET_2
+2020-07-22 10:36:46.204 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingGET_2
+2020-07-22 10:36:46.204 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingHEAD_2
+2020-07-22 10:36:46.205 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPOST_2
+2020-07-22 10:36:46.205 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPUT_2
+2020-07-22 10:36:46.205 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPATCH_2
+2020-07-22 10:36:46.206 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingDELETE_2
+2020-07-22 10:36:46.207 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingOPTIONS_2
+2020-07-22 10:36:46.207 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingTRACE_2
+2020-07-22 10:36:46.208 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_2
+2020-07-22 10:36:46.209 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingHEAD_2
+2020-07-22 10:36:46.210 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPOST_2
+2020-07-22 10:36:46.211 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPUT_2
+2020-07-22 10:36:46.212 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPATCH_2
+2020-07-22 10:36:46.212 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingDELETE_2
+2020-07-22 10:36:46.213 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingOPTIONS_2
+2020-07-22 10:36:46.213 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingTRACE_2
+2020-07-22 10:36:46.217 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-22 10:36:46.228 [main] INFO  com.crab.webjars.WebjarsApplication - Started WebjarsApplication in 3.963 seconds (JVM running for 4.8)
+2020-07-22 10:37:01.657 [http-nio-8085-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 10:37:01.658 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-22 10:37:01.665 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-07-22 10:37:01.686 [http-nio-8085-exec-1] INFO  com.crab.webjars.controller.JdbcController - 日志输出： 访问/jdbc/list
+2020-07-22 10:37:01.830 [http-nio-8085-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-22 10:38:55.504 [main] INFO  com.crab.webjars.WebjarsApplication - Starting WebjarsApplication on DESKTOP-43C2PE1 with PID 19912 (F:\Code\springbootAll\06webjars\target\classes started by 11438 in F:\Code\springbootAll)
+2020-07-22 10:38:55.507 [main] INFO  com.crab.webjars.WebjarsApplication - No active profile set, falling back to default profiles: default
+2020-07-22 10:38:57.270 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-07-22 10:38:57.279 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-07-22 10:38:57.281 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-22 10:38:57.282 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-22 10:38:57.401 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-22 10:38:57.401 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1846 ms
+2020-07-22 10:38:57.994 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-22 10:38:58.226 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 10:38:58.408 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-07-22 10:38:58.436 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-07-22 10:38:58.438 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-22 10:38:58.457 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 4 custom documentation plugin(s)
+2020-07-22 10:38:58.497 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-22 10:38:58.699 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-22 10:38:58.701 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingGET_1
+2020-07-22 10:38:58.702 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingHEAD_1
+2020-07-22 10:38:58.704 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPOST_1
+2020-07-22 10:38:58.705 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPUT_1
+2020-07-22 10:38:58.707 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPATCH_1
+2020-07-22 10:38:58.708 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingDELETE_1
+2020-07-22 10:38:58.709 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingOPTIONS_1
+2020-07-22 10:38:58.711 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingTRACE_1
+2020-07-22 10:38:58.719 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingGET_1
+2020-07-22 10:38:58.720 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingHEAD_1
+2020-07-22 10:38:58.721 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPOST_1
+2020-07-22 10:38:58.722 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPUT_1
+2020-07-22 10:38:58.723 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPATCH_1
+2020-07-22 10:38:58.724 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingDELETE_1
+2020-07-22 10:38:58.725 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingOPTIONS_1
+2020-07-22 10:38:58.727 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingTRACE_1
+2020-07-22 10:38:58.731 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDepartmentUsingGET_1
+2020-07-22 10:38:58.734 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDepartmentsUsingGET_1
+2020-07-22 10:38:58.736 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingGET_1
+2020-07-22 10:38:58.740 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getUsingGET_1
+2020-07-22 10:38:58.741 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getEmployeesUsingGET_1
+2020-07-22 10:38:58.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingGET_1
+2020-07-22 10:38:58.744 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUserUsingGET_1
+2020-07-22 10:38:58.746 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delUserUsingGET_1
+2020-07-22 10:38:58.747 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUserUsingGET_1
+2020-07-22 10:38:58.750 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: userListUsingGET_1
+2020-07-22 10:38:58.752 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingGET_1
+2020-07-22 10:38:58.753 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingHEAD_1
+2020-07-22 10:38:58.754 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPOST_1
+2020-07-22 10:38:58.755 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPUT_1
+2020-07-22 10:38:58.755 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPATCH_1
+2020-07-22 10:38:58.756 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingDELETE_1
+2020-07-22 10:38:58.757 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingOPTIONS_1
+2020-07-22 10:38:58.758 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingTRACE_1
+2020-07-22 10:38:58.760 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2020-07-22 10:38:58.761 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingHEAD_1
+2020-07-22 10:38:58.761 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPOST_1
+2020-07-22 10:38:58.762 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPUT_1
+2020-07-22 10:38:58.762 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPATCH_1
+2020-07-22 10:38:58.763 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingDELETE_1
+2020-07-22 10:38:58.763 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingOPTIONS_1
+2020-07-22 10:38:58.763 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingTRACE_1
+2020-07-22 10:38:58.768 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-22 10:38:58.769 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingGET_2
+2020-07-22 10:38:58.770 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingHEAD_2
+2020-07-22 10:38:58.771 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPOST_2
+2020-07-22 10:38:58.771 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPUT_2
+2020-07-22 10:38:58.772 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingPATCH_2
+2020-07-22 10:38:58.773 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingDELETE_2
+2020-07-22 10:38:58.773 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingOPTIONS_2
+2020-07-22 10:38:58.774 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorUsingTRACE_2
+2020-07-22 10:38:58.782 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingGET_2
+2020-07-22 10:38:58.783 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingHEAD_2
+2020-07-22 10:38:58.784 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPOST_2
+2020-07-22 10:38:58.784 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPUT_2
+2020-07-22 10:38:58.785 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingPATCH_2
+2020-07-22 10:38:58.786 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingDELETE_2
+2020-07-22 10:38:58.786 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingOPTIONS_2
+2020-07-22 10:38:58.787 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: errorHtmlUsingTRACE_2
+2020-07-22 10:38:58.790 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDepartmentUsingGET_2
+2020-07-22 10:38:58.791 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDepartmentsUsingGET_2
+2020-07-22 10:38:58.794 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingGET_2
+2020-07-22 10:38:58.798 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getUsingGET_2
+2020-07-22 10:38:58.800 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getEmployeesUsingGET_2
+2020-07-22 10:38:58.801 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingGET_2
+2020-07-22 10:38:58.803 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUserUsingGET_2
+2020-07-22 10:38:58.804 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: delUserUsingGET_2
+2020-07-22 10:38:58.807 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUserUsingGET_2
+2020-07-22 10:38:58.809 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: userListUsingGET_2
+2020-07-22 10:38:58.811 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingGET_2
+2020-07-22 10:38:58.812 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingHEAD_2
+2020-07-22 10:38:58.813 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPOST_2
+2020-07-22 10:38:58.813 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPUT_2
+2020-07-22 10:38:58.814 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingPATCH_2
+2020-07-22 10:38:58.815 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingDELETE_2
+2020-07-22 10:38:58.816 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingOPTIONS_2
+2020-07-22 10:38:58.817 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test1UsingTRACE_2
+2020-07-22 10:38:58.818 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_2
+2020-07-22 10:38:58.818 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingHEAD_2
+2020-07-22 10:38:58.818 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPOST_2
+2020-07-22 10:38:58.819 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPUT_2
+2020-07-22 10:38:58.819 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingPATCH_2
+2020-07-22 10:38:58.820 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingDELETE_2
+2020-07-22 10:38:58.820 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingOPTIONS_2
+2020-07-22 10:38:58.821 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingTRACE_2
+2020-07-22 10:38:58.822 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-22 10:38:58.833 [main] INFO  com.crab.webjars.WebjarsApplication - Started WebjarsApplication in 3.834 seconds (JVM running for 4.66)
+2020-07-22 10:39:03.536 [http-nio-8085-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 10:39:03.537 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-22 10:39:03.542 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-07-22 10:39:03.700 [http-nio-8085-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

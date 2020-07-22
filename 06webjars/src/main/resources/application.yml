@@ -37,3 +37,11 @@ server:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.springboot.mybatis.pojo
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  file:
+#    path: ./logs
+#    name: ./logs/xx.log
+logging:
+  config: classpath:logback-spring.xml
